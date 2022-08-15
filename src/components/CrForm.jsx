@@ -5,10 +5,9 @@ import PropTypes from 'prop-types';
 
 const CrForm = ({ classColor, onChange }) => {
 
-  const [info, setInfo] = useState({
-    age: '', name: '', species: ''
-  });
+  const initValues = { age: '', name: '', species: ''};
 
+  const [info, setInfo] = useState(initValues);
 
   const manageData = (event) => {
     setInfo({
@@ -57,7 +56,7 @@ const CrForm = ({ classColor, onChange }) => {
       </label>
       <input
         type='text'
-        id='specie'
+        id='species'
         className='form__input'
         required
         name='species'
