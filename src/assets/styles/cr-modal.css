@@ -1,0 +1,11 @@
+.modal__close {
+  margin-top: 10px;
+  background: var(--primary);
+  color: var(--light);
+  padding: 5px 21px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+}

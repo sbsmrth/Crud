@@ -1,0 +1,9 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../img/bg.jpg') center fixed;
+  letter-spacing: var(--letter-spacing-min);
+}
